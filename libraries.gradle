@@ -1,0 +1,14 @@
+ext {
+    jacksonVersion              = "2.5.4"
+    nettyVersion                = "4.0.30.Final"
+    redissonVersion             = "2.1.1"
+
+    libraries = [
+            jacksonCore:    	    "com.fasterxml.jackson.core:jackson-core:${jacksonVersion}",
+            jacksonDatabind:    	"com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}",
+            netty:    	            "io.netty:netty-all:${nettyVersion}",
+            redisson:               "org.redisson:redisson:${redissonVersion}"
+]
+
+
+}
