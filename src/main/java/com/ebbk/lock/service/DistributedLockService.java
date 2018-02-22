@@ -1,6 +1,7 @@
 package com.ebbk.lock.service;
 
 /**
+ * 可以用于spring bean的注入（单例，多态都可以，内部实例已经实现单例）
  * Created by 20259174 on 2018/2/12.
  */
 public interface DistributedLockService {
